@@ -135,3 +135,5 @@ Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para más 
 r
 
 Este README proporciona una descripción detallada del código, explicando cada parte y cómo conf
+
+![Texto alternativo](imagen 1 .jpg)
