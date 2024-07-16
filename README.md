@@ -5,7 +5,7 @@ Este proyecto utiliza un sensor conectado a un ESP8266 para medir las revolucion
 ## Requisitos
 
 - ESP8266
-- Sensor de pulso (por ejemplo, un sensor de efecto Hall)
+- Sensor de pulso (por ejemplo, un sensor de efecto Hall, en este caso es un sensor optico ir)
 - Cuenta en ThingSpeak
 
 ## Instalación
@@ -31,10 +31,10 @@ Estas líneas incluyen las bibliotecas necesarias para conectar el ESP8266 a WiF
 ## Constantes
 ```cpp
 
-const char* ssid = "anita";
-const char* password = "cinemanteca";
+const char* ssid = "miwifi";
+const char* password = "mipass";
 const char* server = "api.thingspeak.com";
-const char* apiKey = "7H2ZRKBIHE55LPRF";
+const char* apiKey = "miapikey";
 const int sensorPin = 4; // Cambiar el pin a GPIO4 (D2) para la interrupción
 const float radioAspas = 0.12; // Radio en metros (12 cm convertido a metros)
 const float pulsosPorVuelta = 2.0;
