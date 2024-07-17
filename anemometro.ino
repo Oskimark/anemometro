@@ -1,11 +1,11 @@
 #include <ThingSpeak.h>
 #include <ESP8266WiFi.h>
 
-const char* ssid = "anita";
-const char* password = "cinemanteca";
+const char* ssid = "missid";
+const char* password = "mipass";
 
 const char* server = "api.thingspeak.com";
-const char* apiKey = "7H2ZRKBIHE55LPRF";
+const char* apiKey = "mikey";
 const int sensorPin = 4; // Cambiar el pin a GPIO4 (D2) para la interrupción
 volatile int pulseCount = 0;
 unsigned long lastTime = 0;
